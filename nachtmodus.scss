@@ -3,6 +3,8 @@ body, #entity, #heroBlock, #searchbar, .galleryHeadingContainer, .pageTabsContai
     color: whitesmoke; 
 }
 
+
+
 #tracker, #menubottombar, #tracker .fakeTop .toggleVisibility {
     background-color: #111; 
 }
@@ -65,14 +67,23 @@ h3 a {
 
 #contentArea {
     background-color: #111111;
-    border-color: #333333; }
+    border-color: #333333; 
+}
+body.hero #contentArea {
+    linear-gradient(#111,#111),linear-gradient(rgba(17,17,17,0.75),#111);
+    div.info {
+        background:none;
+    }
+}
 
 .relatedItProContent {
-    background-color: #222; }
+    background-color: #222; 
+}
 
 #search input.text, input.text, textarea, input[type="text"] {
     background-color: black;
-    color: white; }
+    color: white; 
+}
 
 .keywordSearch, .keywordSearch input.submit {
     background-color: #222;
@@ -255,4 +266,8 @@ table.listing td a {
 //GALLERY
 ul.galleryProfile li.checked {
     color: whitesmoke;
+}
+.galleryTable.karma td {
+    background-color: #222;
+    border-color:#333;
 }
