@@ -197,7 +197,9 @@ table.listing {
 table.listing td {
     background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
     border-top-color: #292929;
-    border-bottom-color: #333; }
+    border-bottom-color: #333;
+    color: whitesmoke;
+}
 table.listing td.ind, table.listing td.last {
     border-color: #333; }
 table.listing td a {
