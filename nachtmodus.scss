@@ -1,32 +1,41 @@
 body, #entity, #heroBlock, #searchbar, .galleryHeadingContainer, .pageTabsContainer, .notificationsContainer, #bottom {
-    background-color: black;
-    color: whitesmoke; }
+    background-color: black !important;
+    color: whitesmoke; 
+}
 
 #tracker, #menubottombar, #tracker .fakeTop .toggleVisibility {
-    background-color: #111; }
+    background-color: #111; 
+}
 
 .thumb {
     background-color: black;
-    border-color: #333; }
+    border-color: #333; 
+}
 
 a, table.listing td.title a, table.listing td.topic a {
-    color: #3c96f0; }
+    color: #3c96f0; 
+}
 
 table.listing td.title a:visited, table.listing td.topic a:visited {
-    color: #3c96f0 !important; }
+    color: #3c96f0 !important; 
+}
 
 .fpaItemsWrapper, .greyTopBorderBlock, .relatedContentContainer .relatedSubjectsContainer .relatedSubjectItems .relatedSubject {
-    border-color: #333; }
+    border-color: #333; 
+}
 
 .fpaItem a {
-    color: whitesmoke; }
+    color: whitesmoke; 
+}
 
 .fpaImageContainer::before {
     background-color: #191919;
-    opacity: 0.8; }
+    opacity: 0.8; 
+}
 
 h1, h2, header .subheading {
-    color: #9a0e36; }
+    color: #9a0e36; 
+}
 
 h3 a {
     color: whitesmoke; }
@@ -34,7 +43,21 @@ h3 a {
 #menubar {
     background-color: #730b2c;
     background-image: linear-gradient(to bottom, #78172d, #730b2c 68px);
-    box-shadow: inset 0 -1px 0 #730b2c; }
+    box-shadow: inset 0 -1px 0 #730b2c; 
+}
+
+#tracker .fakeTop {
+        background-color: #730b2c;
+        background-image: linear-gradient(to bottom, #78172d, #730b2c 68px);
+}
+
+//dark scrollbar for WebKit
+::-webkit-scrollbar-track {
+    background: #000;
+}
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
 
 #bottom div.hr {
     background-color: #222;
@@ -193,13 +216,15 @@ table.phphighlight td.phphighlightline {
 
 table.listing {
     background-color: #595959;
-    background-image: linear-gradient(to bottom, #4d4d4d, #404040); }
-table.listing td {
-    background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
-    border-top-color: #292929;
-    border-bottom-color: #333;
-    color: whitesmoke;
+    background-image: linear-gradient(to bottom, #4d4d4d, #404040); 
+    td {
+        background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+        border-top-color: #292929;
+        border-bottom-color: #333;
+        color: whitesmoke;
+    }
 }
+
 table.listing td.ind, table.listing td.last {
     border-color: #333; }
 table.listing td a {
@@ -212,9 +237,11 @@ table.listing td a {
     border-color: #333; }
 
 .labelCard {
-    background-color: #333; }
-.labelCard a {
-    color: whitesmoke; }
+    background-color: #333; 
+    a {
+        color: whitesmoke; 
+    }
+}
 
 .userklipklap {
     background-image: linear-gradient(to bottom, #808080, #666666);
@@ -224,4 +251,8 @@ table.listing td a {
     background-color: #413437;
     color: whitesmoke;
 }
-/*# sourceMappingURL=custom.css.map */
+
+//GALLERY
+ul.galleryProfile li.checked {
+    color: whitesmoke;
+}
