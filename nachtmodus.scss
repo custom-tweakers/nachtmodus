@@ -133,11 +133,19 @@ table.highlights td, #bestBuyGuides li, #recentlyTested li, .mainColumn.frontpag
     color: whitesmoke; }
 
 .reactieBody {
-    border-color: #444; }
-.reactieBody.informative {
-    background-color: #181a18; }
-.reactieBody.spotlight {
-    background-color: #222422; }
+    border-color: #444; 
+    &.informative {
+        background-color: #181a18; 
+    }
+    &.spotlight {
+        background-color: #222422; 
+    }
+    &.hidden {
+        .reactieHeader a {
+            color:whitesmoke;
+        }
+    }
+}
 
 #smilies {
     background-color: #111; }
