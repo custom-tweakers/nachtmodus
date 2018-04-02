@@ -3,7 +3,10 @@ body, #entity, #heroBlock, #searchbar, .galleryHeadingContainer, .pageTabsContai
     color: whitesmoke; 
 }
 
-
+.popup {
+    background-color: #111;
+    
+}
 
 #tracker, #menubottombar, #tracker .fakeTop .toggleVisibility {
     background-color: #111; 
@@ -56,7 +59,7 @@ h1, h2, header .subheading {
     color: #9a0e36; 
 }
 
-h3 a {
+h3 a, h3 {
     color: whitesmoke; 
 }
 
@@ -334,7 +337,9 @@ ul.galleryProfile li.checked {
     .filterOption {
         border-color:#333;
     }
-    
+    .filterOption label.selected {
+        color: whitesmoke;
+    }
     .filterOption li, .filterOption label {
         color:#aaa;
     }
@@ -353,4 +358,37 @@ form table td.label {
 table {
     background-color: #111;
     border-color: #333;
+}
+
+//Listing
+table.forumlisting > tbody > tr > td {
+    background-color:#111;
+    border-color:#333;
+}
+//articles.css
+.article .ScoreCard.Editorial {
+    h3 {
+        color: whitesmoke;
+    }
+    .ScorecardView, .productInfo {
+        background-color: #222;
+        border-color:#444;
+    }
+}
+.nextPrevLinks.large {
+    .label {
+        color: lightgrey;
+    }
+    li {
+        border-color:#666;
+    }
+    li:hover{background-color:#f2f2f2}
+}
+
+.reviewToc .tocContent ul li.active a {
+    color: whitesmoke;
+}
+
+#toc.fixed.bottom {
+    background-color: #222;
 }
