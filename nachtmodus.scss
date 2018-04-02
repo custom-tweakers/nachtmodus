@@ -28,6 +28,9 @@ a, table.listing td.title a, table.listing td.topic a {
 table.listing td.title a:visited, table.listing td.topic a:visited {
     color: #3c96f0 !important; 
 }
+table.listing p.lead .date {
+    color: whitesmoke;
+}
 
 .fpaItemsWrapper, .greyTopBorderBlock, .relatedContentContainer .relatedSubjectsContainer .relatedSubjectItems .relatedSubject {
     border-color: #333; 
