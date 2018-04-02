@@ -54,6 +54,15 @@ table.listing p.lead .date {
     background-color: #191919;
     opacity: 0.8; 
 }
+.scrollableList, .scrollableList .listItem + .listItem {
+    border-color: #666;
+}
+.scrollableList .listItem, .scrollableList .listItem:hover {
+    color: whitesmoke;
+}
+.scrollableList .listItem:hover {
+    background-color: #282828;
+}
 
 h1, h2, header .subheading {
     color: #9a0e36; 
