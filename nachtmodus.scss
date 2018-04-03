@@ -3,6 +3,10 @@ body, #entity, #heroBlock, #searchbar, .galleryHeadingContainer, .pageTabsContai
     color: whitesmoke; 
 }
 
+#entity > div {
+    border-color: #333;
+}
+
 .popup {
     background-color: #111;
     
@@ -374,6 +378,21 @@ table.forumlisting > tbody > tr > td {
     background-color:#111;
     border-color:#333;
 }
+
+table.listing .location {
+    color: whitesmoke;
+}
+.filterOption.active {
+    background-color: #333;
+}
+.sortable {
+        border-color: #333;
+    &.select .specName {
+        background-color: black;
+        color: whitesmoke;
+    }
+}
+
 //articles.css
 .article .ScoreCard.Editorial {
     h3 {
