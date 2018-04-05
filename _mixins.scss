@@ -1,0 +1,3 @@
+@mixin linear-gradient($args) {
+  background-image: linear-gradient($args);
+}

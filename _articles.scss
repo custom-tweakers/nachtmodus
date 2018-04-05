@@ -1,0 +1,27 @@
+.article .ScoreCard.Editorial {
+  h3 {
+    color: whitesmoke;
+  }
+  .ScorecardView, .productInfo {
+    background-color: #222;
+    border-color:#444;
+  }
+}
+
+.nextPrevLinks.large {
+  .label {
+    color: lightgrey;
+  }
+  li {
+    border-color:#666;
+  }
+  li:hover{background-color:#f2f2f2}
+}
+
+.reviewToc .tocContent ul li.active a {
+  color: whitesmoke;
+}
+
+#toc.fixed.bottom {
+  background-color: #222;
+}

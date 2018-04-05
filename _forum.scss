@@ -1,0 +1,120 @@
+.action_list li.viewcount {
+  color: whitesmoke;
+}
+
+div.info, div.error, div.message, div.faq, form.insertMessage, form.form1, form.form2, #folders, #myprofilecontainer {
+  background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d 40px);
+  border-color: #333;
+}
+
+div.message {
+  &.ownpost {
+    background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d 40px);
+  }
+  &.bestAnswer {
+    background-image: linear-gradient(to bottom, #31332b, #242622);
+    border-color: #3a402f;
+  }
+}
+
+.bar {
+  background-color: #0e0e0e;
+  color: whitesmoke;
+  border-color: #333;
+}
+
+h2.bar.question {
+  background-color: #087099;
+  background-image: linear-gradient(to bottom, #087099, #076e94); }
+h2.bar.other {
+  background-color: #707070;
+  background-image: linear-gradient(to bottom, #4a4a4a, #343434); }
+h2.bar.answer {
+  background-color: #37420c;
+  background-image: linear-gradient(to bottom, #6b8018, #596615); }
+
+.user {
+  color: whitesmoke;
+  &.crew {
+    color: #b9133d;
+  }
+}
+.messagecontent .message-quote-div {
+  background-color: #222;
+  border-color: #444;
+  color: whitesmoke; }
+.messagecontent .toggle-quote {
+  background-color: #222;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #111 25%);
+  border-color: #444; }
+
+.pageTabs li {
+  background-color: #404040;
+  background-image: linear-gradient(to bottom, #333333, #262626);
+  border-color: #444; }
+.pageTabs li.active {
+  background-color: #595959;
+  background-image: linear-gradient(to bottom, #404040, #333333); }
+.pageTabs li.active a {
+  color: #cc1647; }
+.pageTabs li a {
+  color: whitesmoke; }
+
+/* [code] blokken */
+table.phphighlight {
+  background-color: #222;
+  td, td pre, td code {
+    color: whitesmoke;
+  }
+  td.phphighlightcode pre, td.phphighlightcode code {
+    background-color: #222;
+  }
+  td.phphighlightline {
+    background-color: #737270;
+  }
+}
+
+table.listing {
+  background-color: #595959;
+  background-image: linear-gradient(to bottom, #4d4d4d, #404040);
+  td {
+    background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+    border-top-color: #292929;
+    border-bottom-color: #333;
+    color: whitesmoke;
+    a, &.topic {
+      color: whitesmoke;
+    }
+    &.ind, &.ind2, &.last {
+      border-color: #333;
+    }
+
+  }
+}
+
+.action_list li.rating .ratingcount {
+  color: #777; }
+
+#forum_tabs {
+  border-color: #333;
+}
+
+.labelCard {
+  background-color: #333;
+  a {
+    color: whitesmoke;
+  }
+}
+
+.userklipklap {
+  background-image: linear-gradient(to bottom, #808080, #666666);
+}
+
+.bar.warning {
+  background-color: #413437;
+  color: whitesmoke;
+}
+
+h3.inverted {
+  color: whitesmoke;
+}

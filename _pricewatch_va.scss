@@ -1,0 +1,93 @@
+/*
+    CATEGORY BROWSER
+    categorybrowser.css
+ */
+#categoryBrowser {
+  background-color:#111;
+  border-color:#333;
+  .sublist, div {
+    background-color: #222;
+    border-color: #444;
+  }
+  .images li {
+    border-color: #444;
+  }
+  li, .images li {
+    a {
+      color: whitesmoke;
+    }
+  }
+  li:hover {
+    background-color: #333;
+  }
+  .images li {
+    background-color: #222;
+    &:hover {
+      background-color: #333;
+    }
+  }
+}
+
+/*
+    LISTING
+    listing.css
+ */
+#filter {
+  background-color: #222;
+  border-color: #333;
+
+  .filterBlock h4, .filterOption h4 {
+    color: whitesmoke;
+  }
+  .filterOption.collapsed h4 {
+    color: #aaa;
+  }
+  .filterOption {
+    border-color:#333;
+  }
+  .filterOption label.selected {
+    color: whitesmoke;
+  }
+  .filterOption li, .filterOption label {
+    color:#aaa;
+  }
+}
+
+.filterBlock {
+  background-color:#222;
+  border-color: #333;
+}
+
+table.forumlisting > tbody > tr > td {
+  background-color:#111;
+  border-color:#333;
+}
+
+table.listing .location {
+  color: whitesmoke;
+}
+.filterOption.active {
+  background-color: #333;
+}
+.sortable {
+  border-color: #333;
+  &.select .specName {
+    background-color: black;
+    color: whitesmoke;
+  }
+}
+
+/*
+    PRICEWATCH
+    pricewatch.css
+ */
+
+
+/*
+    VRAAG EN AANBOD
+    vraag_aanbod.css
+ */
+.searchAanbod #nearbyAdForm {
+  background-color: #111;
+  border-color: #333;
+}
