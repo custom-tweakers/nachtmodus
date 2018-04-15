@@ -8,7 +8,8 @@ div.info, div.error, div.message, div.faq, form.insertMessage, form.form1, form.
 }
 
 #myprofilecontainer h2 {
-  background-color: transparent;
+  background-color: #111;
+  border-color: #333;
 }
 
 div.message {
@@ -26,16 +27,20 @@ div.message {
   color: whitesmoke;
   border-color: #333;
 }
-
-h2.bar.question {
-  background-color: #087099;
-  background-image: linear-gradient(to bottom, #087099, #076e94); }
-h2.bar.other {
-  background-color: #707070;
-  background-image: linear-gradient(to bottom, #4a4a4a, #343434); }
-h2.bar.answer {
-  background-color: #37420c;
-  background-image: linear-gradient(to bottom, #6b8018, #596615); }
+h2.bar {
+  &.question {
+    background-color: #087099;
+    background-image: linear-gradient(to bottom, #087099, #076e94);
+  }
+  &.other {
+    background-color: #707070;
+    background-image: linear-gradient(to bottom, #4a4a4a, #343434);
+  }
+  &.answer {
+    background-color: #37420c;
+    background-image: linear-gradient(to bottom, #6b8018, #596615);
+  }
+}
 
 .user {
   color: whitesmoke;
@@ -133,4 +138,19 @@ h3.inverted {
 
 .mbr {
   color: #1C16D9;
+}
+
+.membersonly {
+  background-color: black;
+  color: white;
+  border-color: #444;
+}
+
+fieldset.modbreak {
+  background: #413437;
+  background-image: none;
+  background-image: -webkit-linear-gradient(#47393c,#413437);
+  background-image: -moz-linear-gradient(#47393c,#413437);
+  background-image: linear-gradient(#47393c,#413437);
+  border-color: #c08294;
 }

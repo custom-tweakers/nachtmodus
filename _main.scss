@@ -66,15 +66,17 @@ table.listing {
   border-color: #333;
 }
 
-.fpaItem {
-  border-color: #333;
-  a {
-    color: whitesmoke;
-  }
-}
-
 .fpaItems {
   background-color: #111;
+  .fpaItem {
+    border-color: #333;
+    a {
+      color: whitesmoke;
+    }
+    .fpaTitle {
+      background-color: rgba(22,22,22,0.9);
+    }
+  }
 }
 
 .fpaImageContainer::before {
@@ -111,6 +113,7 @@ table.listing {
     background-image: linear-gradient(to bottom, #78172d, #730b2c 68px);
     .toggleVisibility, .toggleVisibility .corner::before, .toggleVisibility .corner::after {
       background-color: #111;
+      border-color: #111;
     }
   }
 }
@@ -188,10 +191,26 @@ table.highlights td, #bestBuyGuides li, #recentlyTested li, .mainColumn.frontpag
   border-color: #444;
 }
 
-.poll label:hover {
-  background-color: #1a1a1a;
+.pollWrapper {
+  background-color: #222;
+}
+.poll label {
+  &:hover {
+    background-color: #1a1a1a;
+  }
+  &.selected {
+    background-color: #2a2a2a;
+  }
 }
 
+.ScoreCard {
+  background-color: #000;
+  border-color: #333;
+  .ScorecardView {
+    background-color: #111;
+    border-color: #333;
+  }
+}
 #categoryBar li a {
   color: whitesmoke;
 }
@@ -234,6 +253,8 @@ table.highlights td, #bestBuyGuides li, #recentlyTested li, .mainColumn.frontpag
   }
 }
 
+
+
 .authorBlock .info .name a {
   color: whitesmoke;
 }
@@ -248,7 +269,7 @@ ul.galleryProfile li.checked {
 }
 
 //Karmastore
-table {
+table.itemList {
   background-color: #111;
   border-color: #333;
   td {
