@@ -19,6 +19,15 @@ body, #entity, #heroBlock, #searchbar, .galleryHeadingContainer, .pageTabsContai
   }
 }
 
+.popup .fadeShowMore.top::before {
+  background-color: white;
+  background-image: -webkit-linear-gradient(top,white,rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(white,rgba(255,255,255,0));
+  background-image: linear-gradient(to bottom,white,rgba(255,255,255,0));
+  background-color: transparent;
+
+}
+
 #menubottombar {
   background-color: #111;
 }
@@ -310,6 +319,27 @@ table.itemList {
   border-color: #7a8932;
   color: white;
 }
+
+.aboShop {
+  .info {
+    background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d 40px);
+    border: 0;
+  }
+  .aboTable tr td {
+    &.description, &.supporter, &.hero, &.elite {
+      border-color: #333;
+    }
+    &.supporter {
+      background-color: #222;
+    }
+    &.hero {
+      background-color: #292a23;
+    }
+    &.elite{
+      background-color: #241d1e;
+    }
+  }
+}
 /*
     OTHER
     other.css
@@ -350,4 +380,11 @@ table.itemList {
 
 .forumList .timeshort {
   border-color: #333;
+}
+
+.downloadDetails {
+  background-color: #222;
+  table td {
+    border-color: #444;
+  }
 }
