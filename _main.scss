@@ -12,6 +12,11 @@ body, #entity, #heroBlock, #searchbar, .galleryHeadingContainer, .pageTabsContai
 
 .popup {
   background-color: #111;
+
+  .fadeShowMore.bottom::after {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0),white);
+    background-color: transparent;
+  }
 }
 
 #menubottombar {
@@ -95,6 +100,9 @@ table.listing {
   background-image: linear-gradient(to bottom, #78172d, #730b2c 68px);
   box-shadow: inset 0 -1px 0 #730b2c;
 }
+.menuHeaderPopup .header a.showLink, .menuHeaderPopup .header a.hideLink {
+  color: whitesmoke;
+}
 
 #tracker {
   background-color: #111;
@@ -121,7 +129,7 @@ table.listing {
 
 #contentArea {
   background-color: #111111;
-  border-color: #333333;
+  border-color: #333333 !important;
 }
 
 body.hero #contentArea {
@@ -133,6 +141,11 @@ body.hero #contentArea {
 
 .relatedItProContent {
   background-color: #222;
+}
+
+select.text {
+  background-color: black;
+  color: whitesmoke;
 }
 
 #search input.text, input.text, textarea, input[type="text"] {
@@ -270,7 +283,50 @@ table {
   color: whitesmoke;
 
 }
+
+.bar.notice {
+  background-color: #353826;
+  border-color: #7a8932;
+  color: white;
+}
 /*
     OTHER
     other.css
  */
+
+
+
+/*
+   GRADE SM
+   grade_sm.css
+ */
+#tweakbase_relations {
+  background-color: #222;
+  border-color: #444;
+  h2 {
+    color: whitesmoke;
+    border-color: #333;
+  }
+  .relationbox {
+    border-color: #444;
+  }
+  .rbProductlist .item {
+    border-bottom-color: #333;
+    border-top-color: #444;
+  }
+  .rbEntitylist {
+    border-color: #333;
+  }
+}
+
+.pageTabs.preserveTabs select {
+  //HACK: to get arrow white, invert is applied, so background colors have also been inverted
+  background-color: #ccc;
+  background-image: linear-gradient(to bottom, #ccc, #d9d9d9);
+  border-color: #bbb;
+  filter: invert(1);
+}
+
+.forumList .timeshort {
+  border-color: #333;
+}

@@ -7,6 +7,10 @@ div.info, div.error, div.message, div.faq, form.insertMessage, form.form1, form.
   border-color: #333;
 }
 
+#myprofilecontainer h2 {
+  background-color: transparent;
+}
+
 div.message {
   &.ownpost {
     background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d 40px);
@@ -49,7 +53,7 @@ h2.bar.answer {
   border-color: #444; }
 
 .pageTabs li {
-  background-color: #404040;
+  background-color: #404040 !important;
   background-image: linear-gradient(to bottom, #333333, #262626);
   border-color: #444; }
 .pageTabs li.active {
@@ -92,6 +96,14 @@ table.listing {
   }
 }
 
+fieldset.modbreak {
+  background-color: #413437;
+  background-image: linear-gradient(#47393c,#413437);
+  legend {
+    color: #b9133d;
+  }
+}
+
 .action_list li.rating .ratingcount {
   color: #777; }
 
@@ -117,4 +129,8 @@ table.listing {
 
 h3.inverted {
   color: whitesmoke;
+}
+
+.mbr {
+  color: #1C16D9;
 }
