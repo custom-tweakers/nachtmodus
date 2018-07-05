@@ -77,6 +77,23 @@ table.listing .location {
   }
 }
 
+.specs .popularSpecs {
+  background-color: #222;
+  border-color: #333;
+  th {
+    border-color: #333;
+  }
+}
+.productSpecifications {
+  tbody tr:hover, tbody tr.diff:hover{
+    background-color: #2d3133
+  }
+  td {
+    border-color: #333;
+  }
+}
+
+
 /*
     PRICEWATCH
     pricewatch.css
@@ -90,4 +107,15 @@ table.listing .location {
 .searchAanbod #nearbyAdForm {
   background-color: #111;
   border-color: #333;
+}
+
+/*
+    BEST TESTED
+ */
+
+.bestTestedContainer .bestTestedProduct {
+  border-color: #666;
+  .info .intro{
+      background-color: #313233;
+  }
 }

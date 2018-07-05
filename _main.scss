@@ -378,13 +378,23 @@ table.itemList {
   filter: invert(1);
 }
 
-.forumList .timeshort {
-  border-color: #333;
-}
-
-.downloadDetails {
-  background-color: #222;
-  table td {
-    border-color: #444;
+.pageTabs {
+  .more > ul {
+    background-color: #111;
+    border-color: #333;
+  }
+  .more.dropdown > div {
+    background-color: #111;
+    background-image: linear-gradient(to bottom,#222,#111)
   }
 }
+  .forumList .timeshort {
+    border-color: #333;
+  }
+
+  .downloadDetails {
+    background-color: #222;
+    table td {
+      border-color: #444;
+    }
+  }
