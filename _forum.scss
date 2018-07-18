@@ -94,7 +94,7 @@ table.phphighlight {
 table.listing {
   background-color: #595959;
   background-image: linear-gradient(to bottom, #4d4d4d, #404040);
-  td {
+  td, &.dm td {
     background-image: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
     border-top-color: #292929;
     border-bottom-color: #333;
